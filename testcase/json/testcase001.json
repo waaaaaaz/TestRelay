@@ -1,0 +1,36 @@
+{
+    "sendTime":1234567890123456789,
+    "callBackUrl" : "http://127.0.0.1:8080/aaa/aaaa",
+    "notifyType":"1",
+    "userId":"",
+    "bizType":"1",
+    "keyInfo":"",
+    "batchNo":"batchNo-burztest-007",
+    "entryCount":1,
+    "totalAmount":2.01,
+    "merchId":"bpm",
+    "entryList":[
+        {
+            "orderNo":"orderNo-burztest-007",
+            "bpmOrderNo":"bpmOrderNo-burztest-007",
+            "projectName":"",
+            "payerEnterpriseName":"浦发545",
+            "payerAccountNo":"6224080600545",
+            "payeeAccountType":"P",
+            "payeeAccountNo":"6224080004347",
+            "payeeAccountName":"浦发2000058744",
+            "payeeBankName":"",
+            "payeeBankCode":"",
+            "payeeDepositBankName":"上海浦东发展银行北京电子城支行",
+            "payeeDepositBankCode":"",
+            "payeeDepositBankProvince":"",
+            "payeeDepositBankCity":"",
+            "amount":2.01,
+            "businessType":"bpm0011",
+            "settleType":"N",
+            "payPriority":"1",
+            "detail":"BPM接口导入-试试接口",
+            "actionFlag":"1"
+        }
+    ]
+}

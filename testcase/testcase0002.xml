@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testcase name="testcase00444" description="123123No desc">
+	<input protocol="http">
+		<url>https://www.baidu.com</url>
+		<method>get</method>
+	</input>
+	<database name="scd">
+		<table name="monitor_keyword" filter="keyword='不良行为'">
+				<field name="type">
+					<value>4</value>
+				</field>
+				<field name="status"><value>1</value></field>
+		</table>
+	</database>
+	<database name="test">
+		<table name="t_enterprise_origin" filter="licence_no='CS0000110'">
+				<field name="enterprise_id">
+					<value>9876</value>
+				</field>
+				<field name="enterprise_name">
+					<value>阿里巴巴</value>
+				</field>
+		</table>
+	</database>
+</testcase>
